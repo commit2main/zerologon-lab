@@ -182,7 +182,7 @@ def perform_attack(
     if not rpc_con:
         print("\nTarget is not vulnerable, likely patched.")
         return False
-    print("\nSuccess! Zerologon attack succeeded.")
+    print("\nSuccess! Target is vulnerable to Zerologon.")
 
     if reset:
         print("\nResetting password...")
